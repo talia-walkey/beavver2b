@@ -1,0 +1,148 @@
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+h2, .dyk-text {
+    font-size: 30pt;
+    font-family: 'Arvo', sans-serif; 
+    font-weight: bolder;
+}
+
+
+/* BUTTONS */
+.btn-light {
+    background-color: #fff;
+    width: 200px;
+    height: 50px;
+    color: #66cccc;
+    border: #66cccc 1px solid;
+}
+
+.btn-blue {
+    background-color: #66cccc;
+    width: 200px;
+    height: 50px;
+    color: #fff;
+}
+
+/* Landing */
+
+#landing {
+    background-image: url(../img/landing.jpg);
+    background-position: center;
+}
+
+.landing-text p {
+    color: #fff;
+}
+
+.landing-content{
+    padding: 150px 0px;
+}
+
+#mystart-button {
+    margin-right: 20px;
+}
+
+.myCircle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color:#fff;
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 1;
+    position: relative;
+}
+
+.mouse-icon {
+    width: 40px;
+    height: auto;
+    padding-top: 15px;
+}
+
+/* Did you know */
+.dyk-content{
+    padding: 50px 0px;
+}
+
+.dyk-content p {
+    margin-bottom: 0px;
+    line-height: 1.2;
+}
+
+
+.stat {
+    color: #66cccc;
+    font-size: 80pt;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.pie {
+    width: 300px;
+    height: auto;
+}
+
+/* How it works */
+#how-it-works {
+    background-color: #F5F5F5;
+    padding: 50px 0px;
+}
+
+.hiw-text {
+    text-align: center;
+    line-height: 1;
+}
+
+.num {
+    font-family: 'Arvo', sans-serif;
+    color: #FFB13B;
+    font-size: 80pt;
+    font-weight: bolder;    
+}
+
+/* Benefits */
+#benefits {
+    padding: 50px 0px;
+    background-image: url(../img/footer.jpg);
+}
+
+#benefits-info {
+    padding: 50px 0px;
+    background-color: #fff;
+}
+
+.circle {
+    width:100px;
+    display: inline;
+}
+
+.benefits-sub {
+    font-family: 'Arvo', sans-serif;
+    color: #FFB13B;
+    padding-right: 15px;    
+    display: inline;
+}
+
+.benefits-title {
+    font-family: 'Arvo', sans-serif;
+    font-size: 14pt;
+}
+
+/* get started */
+#get-started {
+    background-color: #f5f5f5;
+    padding: 50px 0px;
+}
+
+/*footer*/
+#footer {
+    background-color: black;
+    padding: 20px 0px;
+    color: white;
+}
+

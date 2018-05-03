@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" integrity="sha384-WskhaSGFgHYWDcbwN70/dfYBj47jz9qbsMId/iRN3ewGhXQFZCSftd1LZCfmhktB" crossorigin="anonymous">
+      
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/matching_style.css">
+      
+    <!-- Fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto|Arvo" rel="stylesheet">
+
+    <title>Matching</title>
+  </head>
+  <body>
+    <div id="content">
+        
+        <!-- Scan your resume -->
+        <div id="top" class="container-fluid">
+            <div class="row matching-content">
+                <div class="col-md-3"></div>
+                <div class="col-md-6 matching-text">
+                    <h1>SCAN YOUR RESUME</h1>
+                    <p>Copy and paste the text of your resume and job description in the box and press the match button
+                    </p>
+                </div>
+                <div class="col-md-3"></div>
+                
+                <div class="col-md-1"></div>
+                <div class='col-md-5'>
+                    <textarea rows="4" cols="50" placeholder="PASTE YOUR RESUME HERE" class="input-box"></textarea>
+                    <p class="paste"> PASTE </p>
+                </div>
+                
+                
+                <div class='col-md-5'>
+                    <textarea rows="4" cols="50" placeholder="PASTE YOUR JOB DESCRIPTION HERE" class="input-box"></textarea>
+                    <p class="paste"> PASTE </p>
+                </div>
+                <div class="col-md-1"></div>
+                
+                <div class="matching-buttons col-md-12">
+                        <a href="#">
+                            <button class="btn btn-blue" type="submit">MATCH</button>
+                        </a>
+                </div>
+            </div>    
+        </div> 
+        
+      <!-- Rate-->
+        <div id="ratings" class="container-fluid">
+            <div class="row rate-content">
+                
+                <div class="col-md-1"></div>
+                
+                <div class="col-md-3" id='matching-rate-stats'>
+                    <img src="img/pie.png" id='score'/>
+                    <p id='sub-title'>
+                        <b class="table-titles">MATCHING RATE</b>
+                    <br>
+                        This is based on how much your resume matches the job description.
+                    </p>
+                </div>
+                
+                <div class='col-md-7'>
+                    <div class="tab">
+                    <p id='expo-text'>Click the buttons to see which soft and hard skills you are missing.</p>
+                    <br>
+                      <button class="tablinks skillsr" onclick="openBlock(event, 'soft')">Soft Skills</button>
+                      <button class="tablinks skillsr" onclick="openBlock(event, 'hard')">Hard Skills</button>
+                    </div>
+
+                    <div id="soft" class="tabcontent">
+                        <table>
+                          <tr>
+                            <th class="table-titles">SKILLS</th>
+                            <th class="table-titles">RESUME</th>
+                            <th class="table-titles">JOB DESCRIPTION</th>
+                          </tr>
+                        </table>
+                    </div>
+                    <div id="hard" class="tabcontent">
+                        <table>
+                          <tr>
+                            <th class="table-titles">SKILLS</th>
+                            <th class="table-titles">RESUME</th>
+                            <th class="table-titles">JOB DESCRIPTION</th>
+                          </tr>
+                        </table>
+                    </div>
+                    <div class="col-md-1"></div>
+                </div>
+                
+      <!--course recommendations-->          
+            <div id="ratings" class="container-fluid">
+            <div class="row rate-content">
+                
+                <div class="col-md-1"></div>
+                <div class="col-md-3"></div>
+                
+                <div class='col-md-7'>
+                    <div class="tab">
+                      <button class="courser tablinks ">COURSE RECOMMENDATION</button>
+                      <table>
+                          <tr>
+                            <th class="table-titles">COURSE NAME</th>
+                            <th class="table-titles">VIEW</th>
+                          </tr>
+                        </table>
+                    </div>
+                </div>
+                    <div class="col-md-1"></div>
+                </div>
+                </div>
+                <!-- End of Rate -->       
+
+        <!-- Footer -->
+        <div id="footer" class="container-fluid">
+            <div class="row">
+                <div class="col-md-1"></div>
+                <div class='col-md-6'>
+                    <p id='tellus'>TELL US YOUR OPINION</p>
+                    <br>
+                    <input class='foot-email' type="email" placeholder="type your email"/>
+                    <button class='foot-btn' type="submit">SEND</button>
+                </div>
+                <div class="col-md-4">
+                    <br>
+                    <br>
+                    <p class="footer-text">© 2017 Beavver. All rights reserved.</p>
+                </div>
+                <div class="col-md-1"></div>
+            </div>
+        </div> <!-- Footer -->          
+        
+      
+    <div>
+    <!-- Optional JavaScript -->
+    <script src="js/matching.js">  
+      
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+  </body>
+</html>

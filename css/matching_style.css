@@ -1,0 +1,185 @@
+p {
+    font-family: 'Roboto', sans-serif;
+}
+
+
+h2, .dyk-text {
+    font-size: 30pt;
+    font-family: 'Arvo', sans-serif; 
+    font-weight: bolder;
+}
+
+#tellus, .foot-btn, .table-titles {
+    font-size: 11pt;
+    font-family: 'Arvo', sans-serif; 
+    font-weight: bolder;
+}
+
+
+/* BUTTONS */
+
+.btn-blue {
+    background-color: #66cccc;
+    width: 200px;
+    height: 50px;
+    color: #fff;
+}
+
+/* scan */
+
+#top {
+    background-color: #f5f5f5;
+    background-position: center;
+}
+
+h1{
+    text-align: center;
+}
+
+.input-box{
+    width: 100%;
+    height: 200px;
+    border: none;
+    padding: 25px;
+    text-align: center;
+    margin-top: 20px;
+}
+
+.paste{
+    color: #ffb13b;
+    text-align: center;
+}
+
+.matching-text p {
+    color: #000;
+    text-align: center;
+}
+
+.matching-content{
+    padding-top: 150px;
+    padding-bottom: 50px;
+}
+
+.matching-buttons{
+    text-align: center;
+    align-content: center;
+    margin-top: 20px;
+}
+
+/* rating */
+.rate-content{
+    padding: 50px 0px;
+}
+
+.rate-content p {
+    margin-bottom: 0px;
+    line-height: 1.2;
+}
+
+#score{
+    width: 180px;
+    height: auto;
+}
+
+#matching-rate-stats{
+    text-align: center;
+}
+
+#sub-title{
+    margin-top: 20px;
+}
+
+/*tabs*/
+
+.tablinks{
+    text-align: center;
+}
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+
+.skillsr {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 91px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.courser {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 148px;
+    transition: 0.3s;
+    font-size: 17px;
+}
+
+.tab button:hover {
+    background-color: #f5f5f5;
+}
+
+.tab button.active {
+    background-color: #f5f5f5;
+}
+
+.tabcontent {
+    display: none;
+    padding: 6px 20px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+th{
+    padding-right: 70px;
+    text-align: left;
+}
+
+.course-recommendation{
+    margin-top: 50px;
+    
+}
+
+#expo-text{
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+#coursetab{
+    padding: 6px 20px;
+    border: 1px solid #ccc;
+    border-top: none;
+}
+
+/*footer*/
+#footer {
+    background-color: #212121;
+    padding: 70px 0px;
+    color: white;
+}
+
+#tellus{
+    margin: 0px;
+}
+
+.foot-email{
+    margin-top: 0px;
+    width: 70%;
+    border: none;
+    padding: 8px;
+}
+
+.foot-btn{
+    width: 20%;
+    background-color: #66cccc;
+    border: none;
+    padding: 8px;
+}
