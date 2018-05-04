@@ -1,4 +1,4 @@
-p {
+p, td {
     font-family: 'Roboto', sans-serif;
 }
 
@@ -26,6 +26,10 @@ h2, .dyk-text {
 }
 
 /* scan */
+#soft{
+    display: inline-block;
+}
+
 
 #top {
     background-color: #f5f5f5;
@@ -95,9 +99,8 @@ h1{
     text-align: center;
 }
 .tab {
-    overflow: hidden;
-    border: 1px solid #ccc;
     background-color: #fff;
+    border: 1px solid #ccc
 }
 
 .skillsr {
@@ -133,7 +136,10 @@ h1{
 .tabcontent {
     display: none;
     padding: 6px 20px;
-    border: 1px solid #ccc;
+    border-top: none;
+}
+.inner-tab {
+    padding: 6px 20px;
     border-top: none;
 }
 
@@ -160,9 +166,13 @@ th{
 }
 
 /*footer*/
+.inner-footer{
+    width: 100%;
+    padding: 5%;
+    
+}
 #footer {
     background-color: #212121;
-    padding: 70px 0px;
     color: white;
 }
 

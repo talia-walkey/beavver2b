@@ -10,6 +10,7 @@
       
     <!-- Custom CSS -->
     <link rel="stylesheet" href="css/matching_style.css">
+    <link rel="stylesheet" href="css/style.css">
       
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Montserrat|Roboto|Arvo" rel="stylesheet">
@@ -67,12 +68,13 @@
                 </div>
                 
                 <div class='col-md-7'>
-                    <div class="tab">
+                    
                     <p id='expo-text'>Click the buttons to see which soft and hard skills you are missing.</p>
                     <br>
+                    <div class="tab">
                       <button class="tablinks skillsr" onclick="openBlock(event, 'soft')">Soft Skills</button>
                       <button class="tablinks skillsr" onclick="openBlock(event, 'hard')">Hard Skills</button>
-                    </div>
+                    
 
                     <div id="soft" class="tabcontent">
                         <table>
@@ -81,8 +83,14 @@
                             <th class="table-titles">RESUME</th>
                             <th class="table-titles">JOB DESCRIPTION</th>
                           </tr>
+                          <tr>
+                            <td>Eg Soft Skill</td>
+                            <td>Eg Soft Resume</td>
+                            <td>Eg Soft Job Description</td>
+                          </tr>
                         </table>
                     </div>
+                      
                     <div id="hard" class="tabcontent">
                         <table>
                           <tr>
@@ -90,11 +98,18 @@
                             <th class="table-titles">RESUME</th>
                             <th class="table-titles">JOB DESCRIPTION</th>
                           </tr>
+                          <tr>
+                            <td>Eg Hard Skill</td>
+                            <td>Eg Hard Resume</td>
+                            <td>Eg Hard Job Description</td>
+                          </tr>
                         </table>
                     </div>
+                         </div> 
                     <div class="col-md-1"></div>
                 </div>
-                
+            </div>   
+        </div>
       <!--course recommendations-->          
             <div id="ratings" class="container-fluid">
             <div class="row rate-content">
@@ -103,24 +118,31 @@
                 <div class="col-md-3"></div>
                 
                 <div class='col-md-7'>
-                    <div class="tab">
+                     <div class="tab">
                       <button class="courser tablinks ">COURSE RECOMMENDATION</button>
+                        <div class='inner-tab'>
                       <table>
                           <tr>
                             <th class="table-titles">COURSE NAME</th>
                             <th class="table-titles">VIEW</th>
                           </tr>
+                          <tr>
+                            <td>Eg Course Name</td>
+                            <td>Eg View</td>
+                          </tr>
                         </table>
-                    </div>
+                        </div>
+                    
                 </div>
                     <div class="col-md-1"></div>
                 </div>
                 </div>
+        </div>
                 <!-- End of Rate -->       
-
-        <!-- Footer -->
-        <div id="footer" class="container-fluid">
-            <div class="row">
+<div>
+         <!-- Footer -->
+        <div id="footer">
+            <div class='inner-footer'>
                 <div class="col-md-1"></div>
                 <div class='col-md-6'>
                     <p id='tellus'>TELL US YOUR OPINION</p>
@@ -138,7 +160,7 @@
         </div> <!-- Footer -->          
         
       
-    <div>
+    
     <!-- Optional JavaScript -->
     <script src="js/matching.js">  
       

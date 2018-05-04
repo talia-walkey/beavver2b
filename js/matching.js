@@ -1,5 +1,6 @@
 function openBlock(evt, cityName) {
-    var i, tabcontent, tablinks;
+    var i, tabcontent, tablinks, tabcontent1;
+    
     tabcontent = document.getElementsByClassName("tabcontent");
     for (i = 0; i < tabcontent.length; i++) {
         tabcontent[i].style.display = "none";
